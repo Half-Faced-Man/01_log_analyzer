@@ -70,6 +70,7 @@ def main():
     log_file = find_last_file(config.get("LOG_DIR"))
 
     # потом сделать более красивую функцию
+
     lines = [line.rstrip() for line in log_file]
     lines = [line.split() for line in lines]
 
